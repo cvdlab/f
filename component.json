@@ -1,0 +1,14 @@
+{
+  "name": "f",
+  "repo": "cvdlab/f",
+  "description": "JavaScript functional library",
+  "version": "0.0.1",
+  "keywords": [
+    "functional"
+  ],
+  "scripts": [
+    "index.js"
+  ],
+  "dependencies": {},
+  "license": "MIT"
+}
