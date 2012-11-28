@@ -16,10 +16,10 @@
   "name": "f",
   "description": "JavaScript functional library",
   "version": "0.7.0",
-  "homepage": "https://github.com/onirame/f",
+  "homepage": "https://github.com/cvdlab/f",
   "repository": {
     "type": "git",
-    "url": "git://github.com/onirame/f.git"
+    "url": "git://github.com/cvdlab/f.git"
   },
   "main": "./index.js",
   "engines": {
