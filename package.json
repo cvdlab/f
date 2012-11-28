@@ -1,0 +1,30 @@
+{
+  "author": {
+    "name": "Enrico Marino",
+    "email": "enrico.marino@email.com"
+  },
+  "maintainers": [ 
+    {
+      "name": "Enrico Marino",
+      "email": "enrico.marino@email.com"
+    },
+    {
+      "name": "Federico Spini",
+      "email": "federico.spini@gmail.com"
+    } 
+  ],
+  "name": "f",
+  "description": "JavaScript functional library",
+  "version": "0.7.0",
+  "homepage": "https://github.com/onirame/f",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/onirame/f.git"
+  },
+  "main": "./index.js",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
