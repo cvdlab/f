@@ -9,13 +9,14 @@
  * Library namespace.
  */
 
- var ƒ = exports;
+var ƒ = exports;
 
 /**
- * Library version.
+ * Utils
  */
 
-ƒ.version = '0.7.0';
+var array = [];
+var slice = array.slice;
 
 /**
  * choose 
@@ -190,6 +191,23 @@
     return functions.map(function (f) {
       return f(x);
     });
+  };
+};
+
+/**
+ * curry
+ * currify `fn`
+ * 
+ * @param {Function} fn function to currify
+ * @return {Function} currified function
+ * @api public
+ */
+ 
+ƒ.curry = function (fn) {
+  if (arguments.length == 1) return fn;
+  var args = slice.call(arguments, 1);
+  return function () {
+    return fn.apply(null, args.concat(slice.call(arguments)));
   };
 };
 
